@@ -48,7 +48,7 @@ class UIViewActivity : ComponentActivity() {
         uiview.webViewClient = CustomWebViewClient()
         uiview.settings.javaScriptEnabled = true
         uiview.loadUrl(getGlobalVariable(this))
-        setContentView(uiview   )
+        setContentView(uiview)
         // Also jetpack compose code
 //        setContent {
 //            UIView()
