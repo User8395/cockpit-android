@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cockpit</string>
+    <string name="connect">Connect</string>
+    <string name="serveraddress">Server address</string>
+</resources>
