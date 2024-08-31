@@ -47,6 +47,7 @@ class UIViewActivity : ComponentActivity() {
         val uiview = WebView(this)
         uiview.webViewClient = CustomWebViewClient()
         uiview.settings.javaScriptEnabled = true
+        uiview.settings.domStorageEnabled = true
         uiview.loadUrl(getGlobalVariable(this))
         setContentView(uiview)
         // Also jetpack compose code
